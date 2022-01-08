@@ -111,6 +111,38 @@ html{
 
 @media screen and (max-width: 1200px) and (min-width:480px){
    
+    .hero__text h1{
+        width: 80%;
+        font-size: 6rem;
+        font-family: sans-serif;
+        margin: 0 0 0 12rem;
+    }
+    
+    .hero__span {
+        font-size: 6rem;
+        font-family: sans-serif;
+        margin: 0 0 2rem 0;
+    }
+
+    .pets{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .pets__article{
+        margin: 0 0 20rem 0;
+    }
+
+    .pets__dogimage{
+        margin: 0 auto;
+        display: block;      
+   }
+    
+   .pets__dogtitle{
+       text-align: center;
+   }
 
 }
 
